@@ -54,7 +54,7 @@ gulp.task('minify-js-spa', function () {
 });
 
 gulp.task('minify-css', function () {
-    // place code for your minify-css-spa task here
+    // place code for your minify-css task here
 
     //to ignore minified (exclude from source but need to over write)
     return gulp.src([cssFiles, '!' + minCssFiles])
